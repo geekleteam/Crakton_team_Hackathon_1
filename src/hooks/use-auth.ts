@@ -1,8 +1,11 @@
 import { useState, useEffect, useCallback } from "react";
 
 function useAuth() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    // Initialize isLoggedIn based on presence of token in localStorage
+    const token = localStorage.getItem("token");
+    return !!token;
+  });
   const checkLoginStatus = useCallback(() => {
     const token = localStorage.getItem("token");
     setIsLoggedIn(!!token);

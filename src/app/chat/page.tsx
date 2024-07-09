@@ -1,4 +1,6 @@
+"use client"
 import { TableDemo } from "@/components";
+import withAuth from "@/components/with-auth";
 import React from "react";
 
 function Chat() {
@@ -24,4 +26,5 @@ function Chat() {
 	<TableDemo />
 </div> */
 }
-export default Chat;
+
+export default withAuth(Chat);
