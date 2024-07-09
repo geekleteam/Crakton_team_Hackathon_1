@@ -5,4 +5,5 @@ const getUrl = (url: string) => {
 
 export const apiRoutes = {
 	signup: getUrl("core/api/register/"),
+	login: getUrl("core/api/login/"),
 }
