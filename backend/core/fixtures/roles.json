@@ -1,0 +1,19 @@
+[
+    {
+      "model": "core.role",
+      "pk": 1,
+      "fields": {
+        "name": "Default",
+        "description": "Default"
+      }
+    },
+    {
+      "model": "core.role",
+      "pk": 2,
+      "fields": {
+        "name": "Paid",
+        "description": "Paid"
+      }
+    }
+  ]
+  

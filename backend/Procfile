@@ -1,0 +1,2 @@
+release: python manage.py migrate --noinput
+web: gunicorn user_api.wsgi
