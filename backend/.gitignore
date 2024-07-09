@@ -1,0 +1,6 @@
+user_services/
+__pycache__/
+*.pyc
+bin/
+.env
+staticfiles/
