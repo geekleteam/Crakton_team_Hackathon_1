@@ -10,6 +10,7 @@ import {
 import { Settings } from "lucide-react";
 import { useNavContext } from "@/hooks/use-navcontext.hook";
 import { useRouter } from "next/navigation";
+import { Button } from "@/components/ui/button";
 
 
 
@@ -56,9 +57,10 @@ function LoggedinView() {
 
 					</div>
 
-				<button className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">
-					Log out
-				</button>
+		
+				<div>
+               	 <Button className="w-full transition duration-200" type="submit">Log out</Button>
+              </div>
 
 				</div>
 				</div>

@@ -10,6 +10,7 @@ import {
 	SheetClose,
 } from "@/components/ui/sheet";
 import { useNavContext } from "@/hooks/use-navcontext.hook";
+import { Button } from "@/components/ui/button";
 
 
 function GuestLogin() {
@@ -34,11 +35,11 @@ function GuestLogin() {
 
 
                 <div className="mt-3">
-                    <button className='rounded-xl w-full dark:text-white py-2 px-2 font-bold capitalize  text-black border dark:border-slate-700'
+                    <Button className='rounded-xl w-full dark:text-white py-2 px-2 font-bold capitalize  text-black border dark:border-slate-700'
                         onClick={handleLogin}
                     >
                         Login
-                    </button>
+                    </Button>
 
                 </div>
             </div>
