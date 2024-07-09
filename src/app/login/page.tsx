@@ -45,8 +45,8 @@ const LoginScreen = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <div className="p-8 rounded shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-semibold mb-6 text-center">Welcome to Crakton AI</h2>
+      <div className="p-8  shadow-md w-full max-w-md border rounded-xl">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Welcome to Geekle AI</h2>
         <h2 className="text-md  mb-6 text-center">Log in with your account to continue</h2>
 
         <form onSubmit={handleLogin}>
