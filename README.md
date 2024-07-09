@@ -3,6 +3,8 @@ Screenshots:
 <img width="1197" alt="Screenshot 2024-07-09 at 4 33 38 PM" src="https://github.com/Ruchika30/crakton-ai-frontend/assets/16018506/04eea38a-fce8-4e04-a0fc-4d5727a9ce85">
 <img width="1437" alt="Screenshot 2024-07-09 at 4 34 36 PM" src="https://github.com/Ruchika30/crakton-ai-frontend/assets/16018506/cc594bc9-a1ec-42d0-9b41-4df316223cbb">
 
+Video link: https://youtu.be/8wtQSwHxCdY?si=UhKDrnhA0EBSDRJi
+
 
 Techstack used:
 
