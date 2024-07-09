@@ -4,6 +4,13 @@ Screenshots:
 <img width="1437" alt="Screenshot 2024-07-09 at 4 34 36 PM" src="https://github.com/Ruchika30/crakton-ai-frontend/assets/16018506/cc594bc9-a1ec-42d0-9b41-4df316223cbb">
 
 
+Techstack used:
+
+Frontend:
+Nextjs
+Tailwind
+Shadcn
+Typescript
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
