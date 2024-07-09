@@ -11,15 +11,23 @@ import { Settings } from "lucide-react";
 import { useNavContext } from "@/hooks/use-navcontext.hook";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import useAuth from "@/hooks/use-auth";
 
 
 
 function LoggedinView() {
 	const router = useRouter();
     const navContext = useNavContext();
+	const {removeToken} = useAuth()
+
+	const handlelogout =() =>{
+		removeToken()
+		router.push('/login')
+	}
 
 	const openAccounts =() =>{
 		router.push('/account-settings');
+		
 	}
 
     return ( 
@@ -59,7 +67,7 @@ function LoggedinView() {
 
 		
 				<div>
-               	 <Button className="w-full transition duration-200" type="submit">Log out</Button>
+               	 <Button onClick={handlelogout} className="w-full transition duration-200" type="submit">Log out</Button>
               </div>
 
 				</div>
