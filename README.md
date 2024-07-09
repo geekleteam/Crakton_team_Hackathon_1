@@ -1,3 +1,18 @@
+Screenshots:
+<img width="1265" alt="Screenshot 2024-07-09 at 4 33 32 PM" src="https://github.com/Ruchika30/crakton-ai-frontend/assets/16018506/4e05360d-fc90-41bb-9d45-62b1ec28c714">
+<img width="1197" alt="Screenshot 2024-07-09 at 4 33 38 PM" src="https://github.com/Ruchika30/crakton-ai-frontend/assets/16018506/04eea38a-fce8-4e04-a0fc-4d5727a9ce85">
+<img width="1437" alt="Screenshot 2024-07-09 at 4 34 36 PM" src="https://github.com/Ruchika30/crakton-ai-frontend/assets/16018506/cc594bc9-a1ec-42d0-9b41-4df316223cbb">
+
+
+Techstack used:
+
+Frontend:
+- Nextjs
+- Tailwind
+- Shadcn
+- Typescript
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
