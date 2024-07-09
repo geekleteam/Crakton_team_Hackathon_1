@@ -1,10 +1,16 @@
+**Backend Services Setup
+**
 
-
-1. ` cd user_api`
+```
+1. cd user_api
 2. update .env file related to postgres credentials
 3. python manage.py makemigrations & python manage.py migrate
 4. python manage.py loaddata roles.json
 5. python manage.py runserver
+
+```
+
+Production setup: (Refer ./Procfile)
 
 
 **API's**
@@ -49,14 +55,3 @@ curl --location 'localhost:8000/core/api/logout/' \
     "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyMDQ3MzgxNSwiaWF0IjoxNzIwMzg3NDE1LCJqdGkiOiIyZjE4NzY2ZTlmYTI0NTI3YjFlNTZlMGVkZjQxMTEzYyIsInVzZXJfaWQiOjN9.l62sZQx5YxNudvpqZIUM1vmlFeSn2pstaxbn1YIjI-U"
 }'
 ```
-
-
-
-**TODO**
-    
-    1. Swagger docs
-    2. JWT token - 15mins refresh 
-    3. DB setup
-    4. Docker file
-    5. Grpc/Grpahql versioning
-    6. SSO LOGIN[GOOGLE]
